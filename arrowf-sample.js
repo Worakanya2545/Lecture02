@@ -1,11 +1,11 @@
-const sum = (firsParam , secondParam) => {
+const sum = (firsParam, secondParam) => {
     return firsParam + secondParam
 
 };
-console.log (sum(2,5));
+console.log(sum(2, 5));
 
 //
-const printHello= () => {
+const printHello = () => {
     console.log("hello");
 
 };
@@ -13,11 +13,11 @@ printHello;
 
 //
 const checkWeight = (weight) => {
-    console.log (`Baggage weight : ${weight} kilograms.`)
+    console.log(`Baggage weight : ${weight} kilograms.`)
 
 };
-checkWeight (25);
+checkWeight(25);
 
 //
-const multipy = (a,b) => a*b ;
-console.log (multipy(2,30));
+const multipy = (a, b) => a * b;
+console.log(multipy(2, 30));

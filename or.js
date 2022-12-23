@@ -1,11 +1,11 @@
-const status =500;
+const status = 500;
 
-if (status === 200 ){
-    console.log ('OK');
+if (status === 200) {
+    console.log('OK');
 
-}else if (status === 400 || status === 500){
+} else if (status === 400 || status === 500) {
     console.log('Error');
 
-}else{
-    console('Unknow status')
+} else {
+    console('Unknow status');
 }
